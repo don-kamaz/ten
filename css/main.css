@@ -474,12 +474,11 @@ button {
 .footer-item {
   padding-left: 32px;
   position: relative;
-  margin-bottom: 30px;
   color: rgba(0, 0, 0, 1);
 }
 
 .footer-item:not(:last-child) {
-  margin-bottom: 0;
+  margin-bottom: 30px;
 }
 
 .footer-first-slogan {
