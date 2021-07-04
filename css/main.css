@@ -87,7 +87,6 @@ button {
 
 .header .header-border-bottom {
   border-bottom: 1px solid rgba(255, 255, 255, .6);
-  padding: 15px 0;
 }
 
 .container__flex {
@@ -787,10 +786,6 @@ button {
     justify-content: center;
   }
 
-  .box-video {
-    padding-top: ;
-  }
-
   .about-us-box:not(:last-child) {
     margin: 0 auto 20px;
   }
@@ -922,7 +917,11 @@ button {
   .box-video-title {
     width: 100%;
   }
-  
+
+  .box-video-title {
+    margin-top: 77px;
+  }
+
   .box-video-text {
     width: 100%;
   }
