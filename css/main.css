@@ -87,6 +87,7 @@ button {
 
 .header .header-border-bottom {
   border-bottom: 1px solid rgba(255, 255, 255, .6);
+  padding: 15px 0;
 }
 
 .container__flex {
@@ -140,6 +141,7 @@ button {
 
 .header-bottom {
   padding-top: 143px;
+  padding-bottom: 70px;
 }
 
 .header__title {
@@ -289,6 +291,7 @@ button {
   display: block;
   height: auto;
   border-radius: 15px;
+  width: 100%;
 }
 
 .card__overlay {
@@ -784,8 +787,8 @@ button {
     justify-content: center;
   }
 
-  .our-projects {
-    margin-bottom: 220px;
+  .box-video {
+    padding-top: ;
   }
 
   .about-us-box:not(:last-child) {
@@ -827,6 +830,7 @@ button {
 
   .card {
     margin: 10px auto;
+    width: 100%;
   }
 
   .about-us {
