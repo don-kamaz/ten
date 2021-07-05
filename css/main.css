@@ -82,7 +82,6 @@ button {
   margin: 0;
   color: #fff;
   padding-top: 21px;
-  padding-bottom: 72px;
 }
 
 .header .header-border-bottom {
@@ -201,7 +200,7 @@ button {
   align-items: center;
 }
 
-.business-box__item {
+.business-box__item:nth-last-child(n+3) {
   margin-bottom: 43px;
 }
 
@@ -234,7 +233,7 @@ button {
 }
 
 .business-price {
-  display: block;
+  display: inline-block;
   margin-bottom: -15px;
   color: rgba(255, 73, 117, 1);
   text-align: left;
@@ -242,14 +241,13 @@ button {
 }
 
 .business-btn {
-  margin-top: 73px;
+  margin-top: 47px;
 }
 
 /* our-projects */
 
 .our-projects {
   background-color: #F7F6F8;
-  padding-bottom: 245px;
   padding-top: 103px;
   padding-bottom: 242px;
 }
@@ -269,13 +267,14 @@ button {
 }
 
 .our-projects-subtitle {
-  max-width: 95%;
+  max-width: 70%;
   margin-bottom: 78px;
   color: rgba(0, 0, 0, 1);
 }
 
 .container-with-image {
   display: flex;
+  justify-content: space-between;/* + */
 }
 
 .card {
@@ -283,8 +282,6 @@ button {
   width: 345px;
   transition: all .5s ease-in;
   margin-bottom: 20px;
-  margin-left: 30px;
-  margin-right: 30px;
 }
 
 .card__image {
@@ -322,7 +319,7 @@ button {
 
 .about-us {
   display: flex;
-  margin-top: 60px;
+  margin-top: 90px;
   padding-top: 38px;
   border-top: 1px solid rgba(184, 184, 184, 1);
 }
@@ -548,7 +545,6 @@ button {
 }
 
 .form-link {
-  margin-top: 3px;
   background: rgba(255, 73, 117, 1);
   width: 45px;
   height: 45px;
@@ -601,6 +597,10 @@ button {
 
   .container-with-image {
     flex-wrap: wrap;
+    justify-content: start;
+  }
+  .card:not(:last-child) {
+    margin-right: 30px;
   }
 
   .footer__container__flex {
@@ -616,6 +616,13 @@ button {
 
   .header-border-bottom {
     padding-bottom: 23pX;
+  }
+
+  .card:not(:last-child) {
+    margin-right: 20px;
+  }
+  .card {
+    width: 336px;
   }
 
   .menu-logo {
@@ -715,13 +722,22 @@ button {
   .our-projects-title {
     width: 100%;
   }
- 
+
   .container-with-image {
     padding-bottom: 95px;
   }
 
   .card {
-    margin: 10px auto;
+    margin: 0 auto;
+  }
+
+  .card:not(:last-child) {
+    margin: 0;
+  }
+
+  .card:not(:last-child) {
+    margin: 0 auto;
+    margin-bottom: 20px;
   }
 
   .about-us {
@@ -741,7 +757,6 @@ button {
     width: 90%;
     padding: 30px;
   }
-
 
   .video-elements {
     width: 100%;
@@ -764,7 +779,11 @@ button {
 
   .header {
     padding-bottom: 30px;
-  } 
+  }
+
+  .footer-social {
+    margin-bottom: 30px;
+  }
 
   .header__title {
     font-size: 38px;
@@ -793,8 +812,7 @@ button {
 
   .about-us-box:last-child {
     margin: 0 auto;
-  }
-
+  } 
 
   .menu-logo,
   .header__title,
@@ -809,6 +827,9 @@ button {
     width: 100%;
   }
 
+  .our-projects-subtitle {
+    width: 100%;
+  }
   
   .business-box__item {
     flex-wrap: wrap;
@@ -892,7 +913,9 @@ button {
   }
 
   .header__title {
+    font: 30px;
     width: 100%;
+    padding-top: 50px;
   }
 
   .header__signature-title {
@@ -903,7 +926,13 @@ button {
     width: 100%;
   }
   
+  .business {
+    padding-top: 0px;
+  }
+
   .business-title {
+    padding-top: 50px;
+    font-size: 25px;
     width: 100%;
   }
   
@@ -911,7 +940,25 @@ button {
     width: 100%;
   }
   
+
+  .business-box {
+    margin-top: 20px;
+  }
+
   .our-projects {
+    padding-top: 50px;
+    width: 100%;
+  }
+
+  .our-projects-title {
+    font-size: 25px;
+  }
+
+  .our-projects-subtitle {
+    max-width: none;
+  }
+
+  .about-us-box {
     width: 100%;
   }
   
