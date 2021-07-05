@@ -1008,4 +1008,16 @@ button {
   .box-video-title {
     font-size: 28px;
   }
+
+  .second-title {
+    margin-bottom: 35px;
+  }
+
+  .footer-list {
+    margin-bottom: 30px;
+  }
+
+  .footer-box-title-third {
+    margin-top: 5px;
+  }
 }
