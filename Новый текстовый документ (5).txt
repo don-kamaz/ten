@@ -1,0 +1,4 @@
+From line 93, column 13; to line 93, column 102
+From line 107, column 12; to line 107, column 111
+From line 121, column 13; to line 121, column 110
+From line 236, column 9; to line 236, column 268
